@@ -82,10 +82,16 @@ h1{font:italic 800 clamp(40px,12.5vw,64px)/.95 var(--serif);letter-spacing:-.025
 .card.soon .ico{background:transparent;border:1.5px dashed var(--c);color:var(--c)}
 .badge{position:absolute;top:14px;right:12px;font-size:11px;font-weight:700;color:var(--muted)}
 
-.love{margin-top:34px;padding-top:24px;border-top:1px solid var(--line);text-align:center}
+.qr{margin-top:30px;display:flex;align-items:center;gap:16px;padding:14px;border:1px solid var(--line);border-radius:14px;background:#121016}
+.qr img{flex:none;width:120px;height:auto;aspect-ratio:336/335;border-radius:16px;background:#fff}
+.qr h2{font:italic 800 20px/1.2 var(--serif);margin-bottom:4px}
+.qr p{color:var(--muted);font-size:14px}
+.love{margin-top:30px;padding-top:24px;border-top:1px solid var(--line);text-align:center}
 .love h2{font:italic 800 24px/1.2 var(--serif);margin-bottom:6px}
 .love p{color:var(--muted);margin-bottom:16px}
 .love .btn{width:100%}
+.qr{margin-top:30px;display:flex;flex-direction:column;align-items:center;gap:16px;padding:20px 16px;border:1px solid var(--line);border-radius:14px;background:#121016;text-align:center}
+.qr img{width:min(80vw,300px);height:auto;border-radius:20px;background:#fff}
 footer{margin-top:26px;text-align:center;color:var(--muted);font-size:14px}
 footer .h{display:inline-block;color:var(--red);animation:beat 1.4s ease-in-out infinite}
 @keyframes beat{0%,100%{transform:scale(1)}15%{transform:scale(1.3)}30%{transform:scale(1)}45%{transform:scale(1.2)}}
@@ -115,6 +121,10 @@ footer .h{display:inline-block;color:var(--red);animation:beat 1.4s ease-in-out 
  </header>
  <section id="links" aria-label="Our links">
   <ul class="list" id="main"></ul>
+ </section>
+ <section class="qr" aria-labelledby="qt">
+  <img id="qr" src="songlovermoodqr.jpeg"/>
+  <div><h2 id="qt">Scan me</h2><p>Open this page on your phone or pass it to a friend.</p></div>
  </section>
  <section class="love" aria-labelledby="lv">
   <h2 id="lv">Follow • Subscribe • Share the Love</h2>
