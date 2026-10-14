@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SongLoverMood – Feel Every Beat. Live Every Feeling.</title>
+<meta name="description" content="Your daily dose of love, lyrics and unforgettable music. Romantic, Punjabi, sad and old Hindi songs, edits and emotional reels from SongLoverMood.">
+<meta name="theme-color" content="#08080B">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SongLoverMood – Feel Every Beat. Live Every Feeling.">
+<meta property="og:description" content="Your daily dose of love, lyrics and unforgettable music.">
+<!-- After deploying, add: <meta property="og:url" content="https://YOUR-DOMAIN/"> and <meta property="og:image" content="https://YOUR-DOMAIN/og.png"> -->
+<meta name="twitter:card" content="summary">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23FF3152'/%3E%3Cstop offset='1' stop-color='%23FF4E9B'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='%2308080B'/%3E%3Cpath d='M26 44V20l18-4v24' fill='none' stroke='url(%23g)' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='21' cy='44' r='6' fill='url(%23g)'/%3E%3Ccircle cx='39' cy='40' r='6' fill='url(%23g)'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,700;1,9..144,800&family=Instrument+Sans:wght@500;700&display=swap">
+<style>
+:root{--bg:#08080B;--red:#FF3152;--pink:#FF4E9B;--violet:#7B3FE4;--muted:#b9b3c4;--line:rgba(255,255,255,.11);
+--grad:linear-gradient(135deg,var(--red),var(--pink));
+--serif:"Fraunces",Georgia,"Times New Roman",serif;--sans:"Instrument Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:radial-gradient(70% 45% at 50% 0%,rgba(255,49,82,.22),transparent 70%),radial-gradient(60% 40% at 100% 100%,rgba(123,63,228,.16),transparent 70%),var(--bg);
+ background-attachment:fixed;color:#fff;font:16px/1.5 var(--sans);min-height:100svh;overflow-x:hidden;
+ padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;opacity:.07;mix-blend-mode:overlay;
+ background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E")}
+a,button{font:inherit;color:inherit;-webkit-tap-highlight-color:transparent}
+:focus-visible{outline:3px solid #fff;outline-offset:3px;border-radius:12px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.wrap{max-width:520px;margin:0 auto;padding:22px 16px 40px}
+@media(min-width:600px){.wrap{margin:28px auto;padding:34px 30px 40px;background:rgba(12,9,15,.72);border:1px solid var(--line);border-radius:28px;
+ backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}}
+
+/* hero: the record is the one memorable thing */
+.hero{text-align:center;padding-bottom:6px}
+.vinyl{position:relative;width:min(58vw,224px);aspect-ratio:1;margin:0 auto 22px;border-radius:50%;
+ box-shadow:0 18px 50px rgba(255,49,82,.35),0 0 0 1px rgba(255,255,255,.08);
+ background:repeating-radial-gradient(circle,#111 0 2px,#050507 2.5px 4px),#050507;animation:spin 9s linear infinite,drop 1s cubic-bezier(.2,.8,.2,1) both}
+.vinyl::before{content:"";position:absolute;inset:0;border-radius:50%;
+ background:conic-gradient(from 20deg,transparent 0 12%,rgba(255,255,255,.14) 20%,transparent 30% 62%,rgba(255,255,255,.1) 72%,transparent 82%)}
+.vinyl svg.ring{position:absolute;inset:0;width:100%;height:100%}
+.vinyl .label{position:absolute;inset:34%;border-radius:50%;background:var(--grad);display:grid;place-items:center;box-shadow:inset 0 0 0 3px rgba(0,0,0,.25)}
+.vinyl .label svg{width:62%;height:62%}
+.vinyl .label::after{content:"";position:absolute;width:7%;height:7%;border-radius:50%;background:var(--bg)}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes drop{from{opacity:0;transform:translateY(-30px) scale(.92)}}
+h1{font:italic 800 clamp(40px,12.5vw,64px)/.95 var(--serif);letter-spacing:-.025em;text-shadow:0 0 28px rgba(255,49,82,.45)}
+.tag{margin-top:12px;font:italic 700 19px/1.3 var(--serif);color:var(--pink)}
+.sub{margin:8px auto 0;max-width:32ch;color:var(--muted)}
+.eq{display:flex;gap:4px;justify-content:center;align-items:center;height:26px;margin:20px 0}
+.eq i{width:3px;height:100%;border-radius:2px;background:var(--grad);animation:eq 1.2s ease-in-out infinite alternate}
+.eq i:nth-child(3n){animation-duration:.9s}.eq i:nth-child(3n+1){animation-duration:1.5s}
+@keyframes eq{0%{transform:scaleY(.12)}100%{transform:scaleY(1)}}
+.cta{display:grid;gap:10px}
+@media(min-width:420px){.cta{grid-template-columns:1fr 1fr}}
+.btn{position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;min-height:52px;padding:0 20px;border-radius:12px;
+ border:1px solid var(--line);background:transparent;font-weight:700;text-decoration:none;cursor:pointer;transition:transform .2s,background .2s}
+.btn.primary{background:var(--grad);border-color:transparent;color:#fff;box-shadow:0 8px 24px rgba(255,49,82,.35)}
+.btn:hover{transform:translateY(-2px)}.btn:active{transform:scale(.97)}
+.btn:not(.primary):hover{background:rgba(255,255,255,.06)}
+.ripple{position:absolute;border-radius:50%;background:rgba(255,255,255,.35);transform:scale(0);animation:rp .6s ease-out;pointer-events:none}
+@keyframes rp{to{transform:scale(3);opacity:0}}
+
+/* links as a two-sided record */
+.side{margin:28px 0 12px;display:flex;align-items:baseline;gap:10px}
+.side h2{font:italic 800 26px/1 var(--serif)}
+.side p{color:var(--muted);font-size:14px}
+.list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;list-style:none;padding:0}
+.list li{display:flex}
+.list li:last-child:nth-child(odd){grid-column:1/-1}
+.card{--c:var(--pink);position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:14px;width:100%;min-height:118px;padding:15px 14px;text-align:left;
+ text-decoration:none;border-radius:14px;background:#121016;border:1px solid var(--line);cursor:pointer;transition:transform .22s,border-color .22s,box-shadow .22s}
+.list li:last-child:nth-child(odd) .card{flex-direction:row;align-items:center;min-height:72px}
+.card:hover{transform:translateY(-3px);border-color:var(--c);box-shadow:0 10px 26px -10px var(--c)}
+.card:active{transform:scale(.98)}
+.ico{flex:none;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:var(--c);color:#08080B}
+.ico svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.ico svg .f{fill:currentColor;stroke:none}
+.meta{flex:1;min-width:0;width:100%}
+.name{display:block;font-weight:700}
+.hint{display:block;font-size:13px;color:var(--muted);overflow-wrap:anywhere;line-height:1.35}
+.go{position:absolute;top:14px;right:12px;width:17px;height:17px;stroke:var(--muted);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transition:transform .22s}
+.list li:last-child:nth-child(odd) .go{position:static;margin-left:auto}
+.card:hover .go{transform:translateX(3px);stroke:#fff}
+.card.soon{background:transparent;border-style:dashed}
+.card.soon .ico{background:transparent;border:1.5px dashed var(--c);color:var(--c)}
+.badge{position:absolute;top:14px;right:12px;font-size:11px;font-weight:700;color:var(--muted)}
+
+.love{margin-top:34px;padding-top:24px;border-top:1px solid var(--line);text-align:center}
+.love h2{font:italic 800 24px/1.2 var(--serif);margin-bottom:6px}
+.love p{color:var(--muted);margin-bottom:16px}
+.love .btn{width:100%}
+footer{margin-top:26px;text-align:center;color:var(--muted);font-size:14px}
+footer .h{display:inline-block;color:var(--red);animation:beat 1.4s ease-in-out infinite}
+@keyframes beat{0%,100%{transform:scale(1)}15%{transform:scale(1.3)}30%{transform:scale(1)}45%{transform:scale(1.2)}}
+#toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom));transform:translate(-50%,30px);opacity:0;pointer-events:none;
+ background:#17121c;border:1px solid var(--pink);padding:12px 18px;border-radius:12px;font-size:14px;max-width:90vw;text-align:center;transition:.3s;z-index:9}
+#toast.on{transform:translate(-50%,0);opacity:1}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.eq i{transform:scaleY(.6)}}
+</style>
+</head>
+<body>
+<main class="wrap">
+ <header class="hero">
+  <div class="vinyl" aria-hidden="true">
+   <svg class="ring" viewBox="0 0 220 220"><defs><path id="c" d="M110 110m-86 0a86 86 0 1 1 172 0a86 86 0 1 1-172 0"/></defs>
+    <text fill="rgba(255,255,255,.6)" font-family="Instrument Sans,sans-serif" font-size="8.5" font-weight="700"><textPath href="#c" textLength="530" lengthAdjust="spacing">FEEL EVERY BEAT • LIVE EVERY FEELING • </textPath></text></svg>
+   <div class="label"><svg viewBox="0 0 64 64"><path d="M26 44V20l18-4v24" fill="none" stroke="#08080B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="21" cy="44" r="6" fill="#08080B"/><circle cx="39" cy="40" r="6" fill="#08080B"/></svg></div>
+  </div>
+  <h1>SongLoverMood</h1>
+  <p class="sr">FEEL EVERY BEAT • LIVE EVERY FEELING</p>
+  <p class="tag">Feel every beat. Live every feeling.</p>
+  <p class="sub">Your daily dose of love, lyrics and unforgettable music.</p>
+  <div class="eq" id="eq" aria-hidden="true"></div>
+  <div class="cta">
+   <a class="btn primary" href="#links" id="explore">Explore Our Links</a>
+   <a class="btn" href="#" id="join" target="_blank" rel="noopener noreferrer">Join the Community</a>
+  </div>
+ </header>
+ <section id="links" aria-label="Our links">
+  <div class="side"><h2>Side A</h2><p>Find us here</p></div>
+  <ul class="list" id="main"></ul>
+  <div class="side"><h2>Side B</h2><p>Coming soon</p></div>
+  <ul class="list" id="extra"></ul>
+ </section>
+ <section class="love" aria-labelledby="lv">
+  <h2 id="lv">Follow • Subscribe • Share the Love</h2>
+  <p>Know someone who needs the right song today? Send them here.</p>
+  <button class="btn primary" id="share" type="button">Share this page</button>
+ </section>
+ <footer>Made with <span class="h" aria-label="love">♡</span> for music lovers.</footer>
+</main>
+<div id="toast" role="status" aria-live="polite"></div>
+<script>
+/* =====================================================================
+   EDIT YOUR LINKS HERE  (the only place you need to change)
+   - url: ""  → card shows "Not added yet" and does NOT open anything.
+   - Replace "" with your real link and the card goes live automatically.
+   - Remove an item to remove its card. Reorder items to reorder cards.
+   - icon: one of instagram, youtube, telegram, whatsapp, mail, threads,
+           facebook, spotify, tiktok, pinterest, web
+   ===================================================================== */
+const CONFIG = {
+  community: "https://t.me/songlovermood", // "Join the Community" button
+  main: [
+    { name:"Instagram",        hint:"@songlovermood",         icon:"instagram", color:"#FF4E9B", url:"https://instagram.com/songlovermood" },
+    { name:"YouTube",          hint:"@songlovermood",         icon:"youtube",   color:"#FF3152", url:"https://youtube.com/@songlovermood" },
+    { name:"Telegram",         hint:"t.me/songlovermood",     icon:"telegram",  color:"#4FB8F0", url:"https://t.me/songlovermood" },
+    { name:"WhatsApp Channel", hint:"Daily songs and updates",icon:"whatsapp",  color:"#3DDC84", url:"https://whatsapp.com/channel/0029Vb9JSQT7Noa9ANREHM3s" },
+    { name:"Email",            hint:"songlovermood@gmail.com",icon:"mail",      color:"#FFB4C6", url:"mailto:songlovermood@gmail.com" }
+  ],
+  extra: [
+    { name:"Threads",    hint:"Not added yet", icon:"threads",   color:"#E6E6EE", url:"" },
+    { name:"Facebook",   hint:"Not added yet", icon:"facebook",  color:"#5C9DFF", url:"" },
+    { name:"Spotify",    hint:"Not added yet", icon:"spotify",   color:"#3DDC84", url:"" },
+    { name:"TikTok",     hint:"Not added yet", icon:"tiktok",    color:"#5CF0E4", url:"" },
+    { name:"Pinterest",  hint:"Not added yet", icon:"pinterest", color:"#FF5A5F", url:"" },
+    { name:"My Website", hint:"Not added yet", icon:"web",       color:"#C79BFF", url:"" }
+  ]
+};
+
+/* inline SVG icons (24x24) */
+const ICONS = {
+  instagram:'<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle class="f" cx="17.2" cy="6.8" r="1.2"/>',
+  youtube:'<rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path class="f" d="M10 9.2v5.6l5-2.8z"/>',
+  telegram:'<path d="M21 4 3 11l5.5 2L10 19l3-3.5 4.5 3.3z"/><path d="m8.5 13 8-5.5"/>',
+  whatsapp:'<path d="M3.5 20.5 5 16A8.5 8.5 0 1 1 8 19z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.5-2-1-1 .8c-1-.4-1.9-1.300-2.300-2.300l.8-1-1-2z"/>',
+  mail:'<rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/>',
+  threads:'<path d="M16.500 8.500C16 6.500 14.300 5.500 12.200 5.500 9 5.500 7 8 7 12s2 6.500 5.200 6.500c2.800 0 4.500-1.500 4.500-3.500 0-2.200-2-3-4.200-3-1.700 0-2.800.8-2.800 2 0 1 .9 1.700 2.200 1.700 2 0 3-1.600 3.100-4.700"/>',
+  facebook:'<path d="M14 21v-8h2.600l.4-3H14V8.300c0-.9.300-1.500 1.600-1.500H17V4.100C16.700 4.100 15.800 4 14.800 4 12.600 4 11 5.300 11 7.800V10H8.500v3H11v8z"/>',
+  spotify:'<circle cx="12" cy="12" r="9"/><path d="M7 9.500c3.500-1 7-.7 10 1"/><path d="M7.500 12.700c2.800-.8 5.500-.5 8 .9"/><path d="M8 15.700c2.200-.5 4.200-.3 6.200.7"/>',
+  tiktok:'<path d="M14 3v11.500a3.500 3.500 0 1 1-3.500-3.500"/><path d="M14 3c.3 2.500 1.900 4 4.500 4.200"/>',
+  pinterest:'<circle cx="12" cy="12" r="9"/><path d="M10.800 16.500 12.200 10c.3-1.200 1.800-1 1.800.2 0 1.500-1.500 3.300-3 3.300-1.500 0-2-1.200-2-2.300 0-2.200 1.800-3.700 3.800-3.700 2.200 0 3.700 1.500 3.700 3.500s-1.300 4-3.300 4c-1 0-1.600-.5-1.900-1"/>',
+  web:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.500 2.500 3.500 5.500 3.500 9s-1 6.500-3.500 9c-2.500-2.500-3.500-5.500-3.500-9S9.500 5.500 12 3z"/>'
+};
+const CHEV='<svg class="go" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>';
+const $ = s => document.querySelector(s);
+
+function toast(msg){
+  const t=$('#toast'); t.textContent=msg; t.classList.add('on');
+  clearTimeout(toast.id); toast.id=setTimeout(()=>t.classList.remove('on'),2800);
+}
+
+function render(items, target){
+  items.forEach(it=>{
+    const live = !!it.url, mail = /^mailto:/.test(it.url);
+    const el = document.createElement(live ? 'a' : 'button');
+    el.className = 'card' + (live ? '' : ' soon');
+    el.style.setProperty('--c', it.color);
+    if(live){
+      el.href = it.url;
+      if(!mail){ el.target='_blank'; el.rel='noopener noreferrer'; }
+      el.setAttribute('aria-label', it.name + ' – ' + it.hint);
+    } else {
+      el.type='button';
+      el.addEventListener('click',()=>toast(it.name+' link is not added yet.'));
+    }
+    el.innerHTML = '<span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true">'+ICONS[it.icon]+'</svg></span>'
+      +'<span class="meta"><span class="name">'+it.name+'</span><span class="hint">'+it.hint+'</span></span>'
+      + (live ? CHEV : '<span class="badge">Soon</span>');
+    const li=document.createElement('li'); li.appendChild(el); target.appendChild(li);
+  });
+}
+render(CONFIG.main, $('#main'));
+render(CONFIG.extra, $('#extra'));
+$('#join').href = CONFIG.community;
+
+/* equalizer bars */
+$('#eq').innerHTML=Array.from({length:25},(_,i)=>'<i style="animation-delay:'+(-(i*0.37)%1.5).toFixed(2)+'s"></i>').join('');
+/* smooth scroll to links */
+$('#explore').addEventListener('click',e=>{
+  e.preventDefault();
+  $('#links').scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth', block:'start'});
+  history.replaceState(null,'',location.pathname);
+});
+
+/* share */
+$('#share').addEventListener('click',async()=>{
+  const data={title:'SongLoverMood',text:'Feel Every Beat. Live Every Feeling.',url:location.href};
+  try{
+    if(navigator.share){ await navigator.share(data); return; }
+    await navigator.clipboard.writeText(location.href); toast('Link copied. Paste it to share.');
+  }catch(err){ if(err&&err.name!=='AbortError') toast('Copy this page address from your browser bar to share.'); }
+});
+
+/* button ripple */
+document.querySelectorAll('.btn').forEach(b=>b.addEventListener('pointerdown',e=>{
+  const r=b.getBoundingClientRect(), d=Math.max(r.width,r.height), s=document.createElement('span');
+  s.className='ripple'; s.style.cssText='width:'+d+'px;height:'+d+'px;left:'+(e.clientX-r.left-d/2)+'px;top:'+(e.clientY-r.top-d/2)+'px';
+  b.appendChild(s); setTimeout(()=>s.remove(),600);
+}));
+</script>
+</body>
+</html>
